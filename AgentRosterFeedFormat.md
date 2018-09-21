@@ -6,11 +6,6 @@ Introduction
 
 Specification of JSON format for submitting an automated agent roster to Who's Who in Luxury Real Estate.
 
-Delivery
---------
-
-Completed JSON feed shall be self hosted and accessible using HTTP/HTTPS.
-
 Example JSON
 ------------
 
@@ -55,6 +50,7 @@ Password for seed purposes?
       "MemberMobilePhone": "555-1235050",
       "MemberOfficePhone": "555-3129090",
       "MemberOfficePhoneExt": null,
+      "MemberPassword": null,
       "MemberPostalCode": "98121",
       "MemberPreferredPhone": "206-9879090",
       "MemberPreferredPhoneExt": null,
@@ -153,6 +149,10 @@ North American 10 digit phone numbers should be in the format of ###-###-#### (s
 **MemberOfficePhoneExt** — _String(10)_
 
 The extension of the given phone number (if applicable).
+
+**MemberPassword** _String(25)_
+
+If provided, the seed password that the agent's user will initially have. If left blank, a random password will be created and emailed to the agent's user.
 
 **MemberPostalCode** — _String(10)_
 
