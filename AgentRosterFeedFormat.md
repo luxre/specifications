@@ -64,7 +64,7 @@ Password for seed purposes?
           "number": "01424267",
           "stateCode": "CA"
         }
-      ]
+      ],
       "MemberStateOrProvince": "WA",
       "MemberTollFreePhone": "800-9879090",
       "ModificationTimestamp": "2018-09-20 13:53:38 UTC",
