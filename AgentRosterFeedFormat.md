@@ -62,7 +62,7 @@ Password for seed purposes?
       "MemberLicenses": [
         {
           "number": "01424267",
-          "stateCode"=>"CA"
+          "stateCode": "CA"
         }
       ]
       "MemberStateOrProvince": "WA",
