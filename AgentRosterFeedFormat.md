@@ -27,6 +27,11 @@ Password for seed purposes?
           "MediaCategory": "Background Photo",
           "MediaModificationTimestamp": "2018-09-20 13:53:38 UTC",
           "MediaURL": "http://mydomain.com/background.jpg"
+        },
+        {
+          "MediaCategory": "Video",
+          "MediaModificationTimestamp": "2018-09-20 13:53:38 UTC",
+          "MediaURL": "http://mydomain.com/video.mpg"
         }
       ],
       "MemberAddress1": "2110 Western Avenue",
@@ -199,7 +204,7 @@ A unique string identifier for the office where the agent hangs their license.
 
 ### Media
 
-The Media Resource is a representation of agent profile photos.
+The Media Resource is a representation of agent profile photos and videos.
 
 **MediaCategory** — _String(50)_
 
@@ -209,6 +214,7 @@ Allowed values:
 
 - Profile Photo
 - Background Photo
+- Video
 
 **MediaModificationTimestamp** — _Timestamp String(27)_
 
