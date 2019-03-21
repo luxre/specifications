@@ -59,8 +59,12 @@ Password for seed purposes?
       "MemberPostalCode": "98121",
       "MemberPreferredPhone": "206-9879090",
       "MemberPreferredPhoneExt": null,
-      "MemberStateLicense": "1234567890",
-      "MemberStateLicenseState": "WA",
+      "MemberLicenses": [
+        {
+          "number": "01424267",
+          "stateCode"=>"CA"
+        }
+      ]
       "MemberStateOrProvince": "WA",
       "MemberTollFreePhone": "800-9879090",
       "ModificationTimestamp": "2018-09-20 13:53:38 UTC",
@@ -171,9 +175,10 @@ North American 10 digit phone numbers should be in the format of ###-###-#### (s
 
 The extension of the given phone number (if applicable).
 
-**MemberStateLicense** — _String(50)_
+**MemberLicenses** — _Array of JSON objects_
 
-The license of the agent.
+number: String(50) - The license.
+stateCode: String(2) - The state in which the member is licensed.
 
 **MemberStateLicenseState** — _String(3)_
 
