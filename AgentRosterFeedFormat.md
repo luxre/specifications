@@ -44,8 +44,8 @@ Password for seed purposes?
       "MemberFirstName": "Michael",
       "MemberKey": "LRE001",
       "MemberLanguages": [
-        "English",
-        "Swedish"
+        "en",
+        "sv"
       ],
       "MemberLastName": "Edlund",
       "MemberMlsId": [
@@ -137,7 +137,7 @@ A unique string identifier for the agent.
 
 **MemberLanguages** — _Array of String(50)_
 
-An array with the English names of languages spoken by the agent.
+An array with the ISO 639-1 codes of languages spoken by the agent.
 
 **MemberLastName** — _String(50)_
 
