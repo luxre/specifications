@@ -33,7 +33,12 @@ Password for seed purposes?
       "MemberAddress2": null,
       "MemberCity": "Seattle",
       "MemberCountry": "US",
-      "MemberDescription": "I like sneezing, code, and Oxford commas.",
+      "MemberDescription": [
+        {
+          "remark": "I like sneezing, code, and Oxford commas.", 
+          "languageCode": "en"
+         }
+       ],
       "MemberDirectPhone": "555-123-4567",
       "MemberEmail": "sneezer@luxre.com",
       "MemberFirstName": "Michael",
