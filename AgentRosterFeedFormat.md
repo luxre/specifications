@@ -9,9 +9,6 @@ Specification of JSON format for submitting an automated agent roster to Who's W
 Example JSON
 ------------
 
-Password for seed purposes?
-
-
 ```json
 {
   "Agent": [
