@@ -35,6 +35,7 @@ Example JSON
       "MemberAddress2": null,
       "MemberCity": "Seattle",
       "MemberCountry": "US",
+      "MemberCounty":"King",
       "MemberDescription": [
         {
           "remark": "I like sneezing, code, and Oxford commas.", 
@@ -116,6 +117,10 @@ The city of the agent.
 **MemberCountry** — _String(2)_
 
 The two digit country abbreviation of the agent's postal address.
+
+**MemberCounty** — _String(50)_
+
+The county of the agent.
 
 **MemberDescription** — _String(8000)_
 
