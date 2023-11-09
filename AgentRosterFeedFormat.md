@@ -72,6 +72,7 @@ Example JSON
       "MemberTollFreePhone": "800-9879090",
       "ModificationTimestamp": "2018-09-20 13:53:38 UTC",
       "OfficeKey": "OFF123",
+      "OfficeName": "ACME Brokerage",
       "SocialMedia": [
         {
           "SocialMediaType": "Twitter",
@@ -203,6 +204,9 @@ Timestamp for when the agent record was last modified.
 
 A unique string identifier for the office where the agent hangs their license.
 
+**OfficeName** — _String(255)_
+
+The legal name of the brokerage.
 
 ### Media
 
