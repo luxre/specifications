@@ -172,7 +172,8 @@ Here’s a complete example of the HTML structure:
 
             // Fetch user info
             LREAuth.getUserInfo().then(userInfo => {
-                console.log(userInfo.name);
+                console.log(userInfo.first_name);
+                console.log(userInfo.last_name);
                 console.log(userInfo.email);
             }).catch(error => {
                   console.error('Error fetching user info:', error);
